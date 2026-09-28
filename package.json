@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/liftraft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lift config/raft key checks for twelve-factor services.",
+  "bin": {
+    "liftraft": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/liftraft.git"
+  },
+  "homepage": "https://theworker02.github.io/liftraft/",
+  "keywords": [
+    "lift",
+    "raft",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
